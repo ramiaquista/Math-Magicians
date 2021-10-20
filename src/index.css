@@ -4,6 +4,7 @@
   justify-items: center;
   width: 30%;
   height: auto;
+  margin: 20px auto;
 }
 
 .numpad-row {
@@ -35,6 +36,11 @@ input::-webkit-inner-spin-button {
   font-size: 40px;
   text-align: end;
   align-self: baseline;
+}
+
+.res-display input::placeholder {
+  color: white;
+  margin-right: 40px;
 }
 
 .numpad-row input {
