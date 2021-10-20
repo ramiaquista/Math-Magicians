@@ -21,7 +21,6 @@ class Calculator extends React.Component {
   };
 
   displayNum = (object) => {
-    console.log(object);
     if (Object.keys(object).length === 0) {
       return 0;
     }
