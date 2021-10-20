@@ -8,7 +8,7 @@ class Calculator extends React.Component {
       obj: {
         total: 0,
         next: null,
-        operation: '',
+        operation: null,
       },
     };
   }
@@ -21,6 +21,13 @@ class Calculator extends React.Component {
   };
 
   displayNum = (object) => {
+    console.log(object);
+    if (Object.keys(object).length === 0) {
+      return 0;
+    }
+    if (Object.keys(object).length === 1) {
+      return object.operation;
+    }
     if (object.total === null) {
       return object.next;
     }
