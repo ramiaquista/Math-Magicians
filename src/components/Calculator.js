@@ -1,14 +1,13 @@
 import React from 'react';
 import calculate from '../logic/calculate';
-// import operate from '../logic/operate';
-// eslint-disable-next-line react/prefer-stateless-function
+
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       obj: {
         total: 0,
-        next: 0,
+        next: null,
         operation: '',
       },
     };
@@ -22,8 +21,14 @@ class Calculator extends React.Component {
   };
 
   displayNum = (object) => {
-    if (object.total === null || object.operation !== null) {
+    if (object.total === null) {
       return object.next;
+    }
+    if (object.next === null && object.operation !== null) {
+      return `${object.total} ${object.operation}`;
+    }
+    if (object.next !== null && object.operation !== null && object.total !== null) {
+      return `${object.total} ${object.operation} ${object.next}`;
     }
     return object.total;
   };
