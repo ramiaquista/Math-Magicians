@@ -1,0 +1,14 @@
+.home-page {
+  flex-direction: column;
+  padding: 5rem;
+}
+
+h1 {
+  margin-bottom: 4vh;
+}
+
+p {
+  text-align: justify;
+  font-weight: 300;
+  font-style: italic;
+}
