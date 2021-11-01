@@ -61,9 +61,11 @@ Once you clone the repository:
 
 You are ready to go!
 
-<!-- ### Live Demo Server
+### Live Demo Server
 
-- [Leaderboard Website](https://ramiaquista.github.io/leadboard-website/dist/) -->
+- Try it here!: [Math Magicians Website Netlify](https://nostalgic-nightingale-0e49bd.netlify.app/)
+
+- Try it here!: [Math Magicians Website Heroku](https://git.heroku.com/math-magicians-conf1g.git)
 
 
 ## Authors
