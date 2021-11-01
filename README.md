@@ -65,7 +65,7 @@ You are ready to go!
 
 - Try it here!: [Math Magicians Website Netlify](https://nostalgic-nightingale-0e49bd.netlify.app/)
 
-- Try it here!: [Math Magicians Website Heroku](https://git.heroku.com/math-magicians-conf1g.git)
+- Try it here!: [Math Magicians Website Heroku](https://math-magicians-conf1g.herokuapp.com/)
 
 
 ## Authors
